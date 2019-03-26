@@ -1,0 +1,11 @@
+{
+    "name": "samjoyce777/laravel-logger",
+    "description": "Laravel logging",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "SamJoyce777\\LaravelLogger\\": "src/"
+        }
+    },
+    "require": {}
+}
