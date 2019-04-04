@@ -3,6 +3,7 @@
 namespace SamJoyce777\LaravelLogger\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use SamJoyce777\LaravelLogger\Helper\LogToChannels;
 
 class LoggerFacade extends Facade
 {
@@ -11,5 +12,5 @@ class LoggerFacade extends Facade
      *
      * @return string
      */
-    protected static function getFacadeAccessor() { return 'LogToChannels'; }
+    protected static function getFacadeAccessor() { return LogToChannels::class; }
 }
