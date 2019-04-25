@@ -22,6 +22,6 @@
     </div>
 @stop
 
-@section('scripts')
+@push('scripts')
     @include('laravel-logger::common.script')
-@stop
+@endpush
