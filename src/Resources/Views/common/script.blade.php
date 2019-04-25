@@ -4,7 +4,7 @@
             e.preventDefault();
 
             var data = {
-                _token: csrf(),
+                _token: CSRF.get_token(),
                 channel: $(this).data('channel'),
                 level: $(this).data('level'),
                 start_date: $('#start_date').val(),
@@ -34,7 +34,7 @@
 
             var data = {
                 method: $(this).data('method'),
-                _token: csrf(),
+                _token: CSRF.get_token(),
                 message: $(this).html(),
                 start_date: $('#start_date').val(),
                 end_date: $('#end_date').val(),
