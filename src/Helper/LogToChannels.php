@@ -71,10 +71,13 @@ class LogToChannels
                 'user_id' => isset(\Auth::user()->id) ? \Auth::user()->id : null,
             ]);
         } catch (\Exception $e) {
+            return false;
         }
 
         // LogToChannels the record
-        return $this->channels[$channel]->{Logger::getLevelName($level)}($message, $context);
+        $this->channels[$channel]->{\Logger::getLevelName($level)}($message, $context);
+
+        return true;
     }
 
     /**
