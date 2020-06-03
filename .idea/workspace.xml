@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1405dc26-1164-4e29-9444-10af4d3a4e1e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-logger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-logger.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Helper/LogToChannels.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/LogToChannels.php" afterDir="false" />
@@ -12,7 +11,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -43,7 +42,8 @@
       <updated>1556190001122</updated>
       <workItem from="1556190002306" duration="184000" />
       <workItem from="1556193830061" duration="62000" />
-      <workItem from="1591169062181" duration="272000" />
+      <workItem from="1591169062181" duration="389000" />
+      <workItem from="1591174287956" duration="333000" />
     </task>
     <servers />
   </component>

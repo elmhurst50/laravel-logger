@@ -2,7 +2,7 @@
     "name": "samjoyce777/laravel-logger",
     "description": "Laravel logging",
     "type": "package",
-    "version" : "1.0.4",
+    "version" : "1.0.5",
     "autoload": {
         "psr-4": {
             "SamJoyce777\\LaravelLogger\\": "src/"

@@ -75,7 +75,7 @@ class LogToChannels
         }
 
         // LogToChannels the record
-        $this->channels[$channel]->{\Logger::getLevelName($level)}($message, $context);
+        $this->channels[$channel]->{Logger::getLevelName($level)}($message, $context);
 
         return true;
     }
